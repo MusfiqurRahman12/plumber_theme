@@ -56,6 +56,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Services_Icon_Grid_Widget` | `plumberx_services_icon_grid` | `services-icon-grid-widget.php` | 8-card grid for Services 3 with customizable SVG icons, presets, descriptions, Read More buttons, and water splash |
 | `PlumberX_Service_Details_Widget` | `plumberx_service_details` | `service-details-widget.php` | Two-column service details layout with interactive sidebar, download brochures, benefit box, facts counters, and FAQ accordion |
 | `PlumberX_Projects_Gallery_Widget` | `plumberx_projects_gallery` | `projects-gallery-widget.php` | Filterable 9-item project gallery grid with interactive category navigation, FLIP shuffle animation, and lightbox zoom modal |
+| `PlumberX_Case_Study_Widget` | `plumberx_case_study` | `case-study-widget.php` | Two-column case study story and progress gallery with custom description, challenges, testimonial quote box, and 4-image asymmetric layout |
 
 ---
 
@@ -160,6 +161,17 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   3. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
 - **Key Fix:** Updated `plumberx_project` custom post type rewrite rules in `functions.php` (`has_archive => false`, `rewrite => ['slug' => 'project']`) so `/projects/` routes directly to the Elementor Page instead of CPT archive.
 
+### ✅ Page 8: Case Study (`/case-study/`, Post ID 165)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Case Study", Breadcrumb "Home > Pages > Case Study".
+  2. Case Study Details (`plumberx_case_study`):
+     - Left Column: Project Description, The Challenge in Installation, Testimonial Quote box with cyan quotation SVG and author "Micale John, Client", and The Final View of Project.
+     - Right Column: 4-image visual progress layout (top single image `case_study_1.jpg`, middle 2-image grid `case_study_2.jpg` & `case_study_3.jpg`, bottom single image `case_study_4.jpg`).
+  3. Emergency Banner (`plumberx_emergency_banner`): Urgent 24/7 callout banner with plumber cutout, wrench cutout, direct call link, and contact button.
+  4. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
+- **Verification:** Verified in browser with full visual inspection and screenshots.
+
 ---
 
 ## 5. Remaining Pages Roadmap
@@ -168,8 +180,8 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 |---|---|---|---|
 | **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | ✅ Completed |
 | **Projects** | `projects.html` | `/projects/` (ID 164) | ✅ Completed |
-| **Case Study** | `case-study.html` | `/case-study/` (ID 165) | 🚀 Up next |
-| **Price Plans** | `price.html` | `/pricing/` (ID 166) | Pending |
+| **Case Study** | `case-study.html` | `/case-study/` (ID 165) | ✅ Completed |
+| **Price Plans** | `price.html` | `/pricing/` (ID 166) | 🚀 Up next |
 | **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | Pending |
 | **Contact Us** | `contact.html` | `/contact/` (ID 168) | Pending |
 | **WooCommerce Shop** | `shop.html` | `/shop/` (ID 6) | Pending |
@@ -178,6 +190,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 
 ## 6. Git Commit History
 
+- `3b55e63`: feat: implement Projects page with dedicated Elementor widgets, FLIP filtering, and lightbox modal
 - `94af782`: feat: implement Plumbing Repairs page with dedicated Elementor widgets and verified layout
 - `7b314b2`: feat: implement Services 3 page with dedicated Elementor widgets and verified layout
 - `a9f0d98`: feat: implement Services 2 page with dedicated Elementor widgets and verified layout

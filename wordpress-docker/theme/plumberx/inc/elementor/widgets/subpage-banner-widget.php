@@ -81,6 +81,26 @@ class PlumberX_Subpage_Banner_Widget extends \Elementor\Widget_Base {
         );
 
         $this->add_control(
+            'breadcrumb_middle_text',
+            array(
+                'label'       => esc_html__( 'Breadcrumb Middle Text (Optional)', 'plumberx' ),
+                'type'        => \Elementor\Controls_Manager::TEXT,
+                'placeholder' => esc_html__( 'e.g. Pages or Services', 'plumberx' ),
+                'condition'   => array( 'show_breadcrumb' => 'yes' ),
+            )
+        );
+
+        $this->add_control(
+            'breadcrumb_middle_url',
+            array(
+                'label'       => esc_html__( 'Breadcrumb Middle URL', 'plumberx' ),
+                'type'        => \Elementor\Controls_Manager::URL,
+                'placeholder' => esc_html__( 'https://your-link.com or #', 'plumberx' ),
+                'condition'   => array( 'show_breadcrumb' => 'yes' ),
+            )
+        );
+
+        $this->add_control(
             'breadcrumb_current_text',
             array(
                 'label'     => esc_html__( 'Breadcrumb Current Text', 'plumberx' ),
@@ -129,6 +149,8 @@ class PlumberX_Subpage_Banner_Widget extends \Elementor\Widget_Base {
         $show_bc      = 'yes' === $settings['show_breadcrumb'];
         $parent_text  = ! empty( $settings['breadcrumb_parent_text'] ) ? $settings['breadcrumb_parent_text'] : 'Home';
         $parent_url   = ! empty( $settings['breadcrumb_parent_url']['url'] ) ? $settings['breadcrumb_parent_url']['url'] : home_url( '/' );
+        $middle_text  = ! empty( $settings['breadcrumb_middle_text'] ) ? $settings['breadcrumb_middle_text'] : '';
+        $middle_url   = ! empty( $settings['breadcrumb_middle_url']['url'] ) ? $settings['breadcrumb_middle_url']['url'] : '#';
         $current_text = ! empty( $settings['breadcrumb_current_text'] ) ? $settings['breadcrumb_current_text'] : $title;
 
         $bg_style = '';
@@ -143,6 +165,10 @@ class PlumberX_Subpage_Banner_Widget extends \Elementor\Widget_Base {
               <div class="breadcrumb-list">
                 <a href="<?php echo esc_url( $parent_url ); ?>"><?php echo esc_html( $parent_text ); ?></a>
                 <span class="breadcrumb-separator">&gt;</span>
+                <?php if ( ! empty( $middle_text ) ) : ?>
+                  <a href="<?php echo esc_url( $middle_url ); ?>"><?php echo esc_html( $middle_text ); ?></a>
+                  <span class="breadcrumb-separator">&gt;</span>
+                <?php endif; ?>
                 <span><?php echo esc_html( $current_text ); ?></span>
               </div>
             <?php endif; ?>
