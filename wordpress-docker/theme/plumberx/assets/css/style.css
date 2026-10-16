@@ -3904,7 +3904,8 @@ button, input, select, textarea {
 .elementor-widget-plumberx_case_study,
 .elementor-widget-plumberx_pricing,
 .elementor-widget-plumberx_blog_hero,
-.elementor-widget-plumberx_blog_list {
+.elementor-widget-plumberx_blog_list,
+.elementor-widget-plumberx_contact {
   width: 100%;
 }
 
@@ -3931,7 +3932,8 @@ button, input, select, textarea {
 .elementor-widget-plumberx_case_study .elementor-widget-container,
 .elementor-widget-plumberx_pricing .elementor-widget-container,
 .elementor-widget-plumberx_blog_hero .elementor-widget-container,
-.elementor-widget-plumberx_blog_list .elementor-widget-container {
+.elementor-widget-plumberx_blog_list .elementor-widget-container,
+.elementor-widget-plumberx_contact .elementor-widget-container {
   padding: 0 !important;
   margin: 0 !important;
 }

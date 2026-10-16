@@ -60,6 +60,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Pricing_Widget` | `plumberx_pricing` | `pricing-widget.php` | 2-column pricing plans grid with 11 dynamic service price cards (image, title, amount, label) and interactive query contact card |
 | `PlumberX_Blog_Hero_Widget` | `plumberx_blog_hero` | `blog-hero-widget.php` | Blog hero banner with vibrant blue gradient, custom title, texture background, and cutout service vehicle |
 | `PlumberX_Blog_List_Widget` | `plumberx_blog_list` | `blog-list-widget.php` | 2-column blog layout with live post loop, cards, excerpts, pagination, and multi-component sidebar (search, categories, recent news, tags) |
+| `PlumberX_Contact_Widget` | `plumberx_contact` | `contact-widget.php` | 2-column contact layout with intro header, AJAX contact form, contact info cards (office, email, phone) with circular SVG badges, and service map |
 
 ---
 
@@ -207,6 +208,18 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
      - Native "Leave a Reply" comment form matching exact design classes.
   3. Right Sidebar: Search, Recent Posts links, Archives list, Categories list.
   4. Global Request Free Quote Strip Button & Theme Footer.
+### ✅ Page 11: Contact Us (`/contact/`, Post ID 168)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Contact Us", Breadcrumb "Home > Contact Us".
+  2. Contact Section (`plumberx_contact`):
+     - Intro text: Online representative guidance with highlighted red phone number ("Our 24/7 Support, General Inquireies Phone: + 1800 654 321").
+     - 2-Column Grid:
+       - Left: AJAX contact form with Name, Email, Phone Number, Message textarea, and red "SUBMIT NOW" button.
+       - Right: "Contact info" heading, subtitle, and 3 contact detail items with circular SVG badges (Office address, Dual support emails, Dual telephone lines).
+     - Map display container with NYC service dispatch headquarters map graphic (`contact_map.jpg`).
+  3. Emergency Banner (`plumberx_emergency_banner`): Urgent 24/7 callout banner with plumber cutout, wrench cutout, direct call link, and contact button.
+  4. Global Theme Footer (with automatic suppression of the redundant quote strip button on contact page matching `contact.html`).
 - **Verification:** Verified in browser with full visual inspection and screenshots.
 
 ---
@@ -217,8 +230,8 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 |---|---|---|---|
 | **Price Plans** | `price.html` | `/pricing/` (ID 166) | ✅ Completed |
 | **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | ✅ Completed |
-| **Contact Us** | `contact.html` | `/contact/` (ID 168) | 🚀 Up next |
-| **WooCommerce Shop** | `shop.html` | `/shop/` (ID 6) | Pending |
+| **Contact Us** | `contact.html` | `/contact/` (ID 168) | ✅ Completed |
+| **WooCommerce Shop** | `shop.html` | `/shop/` (ID 6) | 🚀 Up next |
 
 ---
 

@@ -7,9 +7,11 @@
 ?>
 
   <!-- Request Free Quote Strip Button -->
+  <?php if ( ! is_page( array( 'contact', 'contact-us' ) ) ) : ?>
   <div class="quote-strip-button-wrap">
     <button class="btn-request-free-quote" type="button">REQUEST FOR A FREE QUOTE</button>
   </div>
+  <?php endif; ?>
 
   <!-- Footer -->
   <footer class="site-footer">
