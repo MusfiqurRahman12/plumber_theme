@@ -254,7 +254,7 @@ class PlumberX_Services_Icon_Grid_Widget extends \Elementor\Widget_Base {
                 'label_on'     => esc_html__( 'Show', 'plumberx' ),
                 'label_off'    => esc_html__( 'Hide', 'plumberx' ),
                 'return_value' => 'yes',
-                'default'      => 'yes',
+                'default'      => '',
             )
         );
 

@@ -73,11 +73,7 @@ $elementor_data = array(
                         'settings'   => array(
                             'section_title'    => 'We offer Different Services',
                             'section_subtitle' => 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit.',
-                            'show_splash'      => 'yes',
-                            'splash_image'     => array(
-                                'url' => get_img_url( 'water_splash.png', $media_map, $site_url ),
-                            ),
-                            'splash_width'     => 320,
+                            'show_splash'      => '',
                             'services_list'    => array(
                                 array(
                                     'card_title'  => 'Plumbing Repairs',
