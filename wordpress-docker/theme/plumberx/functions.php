@@ -605,3 +605,7 @@ add_action( 'woocommerce_after_main_content', 'plumberx_wc_wrapper_end', 10 );
  *---------------------------------------------*/
 require_once PLUMBERX_DIR . '/inc/template-tags.php';
 require_once PLUMBERX_DIR . '/inc/elementor/elementor-init.php';
+require_once PLUMBERX_DIR . '/inc/tgm/tgm-init.php';
+require_once PLUMBERX_DIR . '/inc/demo-import/ocdi-setup.php';
+require_once PLUMBERX_DIR . '/inc/demo-import/demo-importer.php';
+

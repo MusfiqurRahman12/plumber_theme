@@ -1,0 +1,3343 @@
+{
+    "theme": "plumberx",
+    "version": "1.0.1",
+    "exported_at": "2026-10-16 21:51:07",
+    "pages": {
+        "home": {
+            "title": "Home",
+            "slug": "home",
+            "content": "",
+            "template": "",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_hero",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_hero",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_hero",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_hero",
+                                    "settings": {
+                                        "subtitle": "Expertise",
+                                        "title": "You Can Trust",
+                                        "description": "Our plumbing professionals are thoroughly trained to assess the situation and effectively respond in a way that treats the source of the problems.",
+                                        "btn_text": "Learn More",
+                                        "btn_link": {
+                                            "url": "/about/"
+                                        },
+                                        "plumber_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/home_hero_plumber.png"
+                                        },
+                                        "tab1_text": "RESIDENTIAL",
+                                        "tab2_text": "COMMERCIAL",
+                                        "form_header": "REQUEST A FREE QUOTE",
+                                        "btn_submit_text": "GET A QUOTE"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_promo",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_promo",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_promo",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_promo_strip",
+                                    "settings": {
+                                        "promo_title": "Schedule Repair Service &amp; Save $25",
+                                        "promo_text": "We service all plumbing leakes and coges and we are available 24/7",
+                                        "btn_text": "Schedule a Service"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_certified",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_certified",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_certified",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_certified",
+                                    "settings": {
+                                        "title_strong": "We are certified",
+                                        "title_rest": "plumber in Los Angle",
+                                        "section_subtitle": "We have the wherewithal to handle a number of plumbing situations in any of these locations. Don't hesitate to enlist our services! From start to finish, you can count on Plumberx Plumbing for superior assistance, maintenance, repairs, and more.",
+                                        "card1_title": "We Are Plumber",
+                                        "card1_desc": "Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis, Lorem ipsum dolor sit ametion consectetur elit. Vesti bulum nec odio.",
+                                        "card1_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/home_certified_1.jpg"
+                                        },
+                                        "card2_title": "Commercial Plumbing",
+                                        "card2_desc": "Plumbing problems can be disastrous for commercial locations. Something as simple as a leak or a clogged pipe.",
+                                        "card2_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/home_certified_2.jpg"
+                                        },
+                                        "card3_title": "Commercial Plumbing",
+                                        "card3_desc": "Plumbing problems can be disastrous for commercial locations. Something as simple as a leak or a clogged pipe.",
+                                        "card3_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/home_certified_3.jpg"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_services_tabs",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_services_tabs",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_services_tabs",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_services_tabs",
+                                    "settings": {
+                                        "section_title": "Services That We Offers",
+                                        "plumber_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/service_tab_plumber.png"
+                                        },
+                                        "source": "manual"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_projects",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_projects",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_projects",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_projects",
+                                    "settings": {
+                                        "section_title": "Our Projects",
+                                        "posts_per_page": 8,
+                                        "btn_text": "VIEW ALL",
+                                        "btn_link": {
+                                            "url": "/projects/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_coupon",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_coupon",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_coupon",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_coupon",
+                                    "settings": {
+                                        "title_strong": "Choosing the Right",
+                                        "title_rest": "Plumbing Contractor",
+                                        "contractor_text": "Factory Trained Technicians: We only employ factory trained technicians, they're the best in the industry. Your assurance that the work will be done right the first time.\n\nExtensive Contractor Services: At Sammi's, we expect to continue our relationship long after your new equipment is installed. Our ongoing services are designed to keep your unit operating at peak efficiency without disruptive breakdowns.",
+                                        "checklist_items": "Plumbing Clogs\nToilets install or replace\nWater heater replacement\nNew piping and repairs\nRepair and install gas lines\nResidential and commercial\nRemodel your plumbing\nPlumbing\nFlood repair\nAnd a ton more\nDisposal repair and install",
+                                        "coupon_title": "$35 Off Service Call",
+                                        "coupon_subtitle": "Cannot be combined with any other offer",
+                                        "coupon_tag": "For new clients only",
+                                        "coupon_note": "Must present coupon at time of service.",
+                                        "coupon_expire": "01.05.2026",
+                                        "specials_link": {
+                                            "url": "/pricing/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_team",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_team",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_team",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_team",
+                                    "settings": {
+                                        "section_title": "Meet Our Specialists",
+                                        "source": "cpt"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_testimonials",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_testimonials",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_testimonials",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_testimonials",
+                                    "settings": {
+                                        "section_title": "What our customers says",
+                                        "section_subtitle": "Thousands of people get benefit",
+                                        "source": "cpt"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_blog",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_blog",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_blog",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_blog",
+                                    "settings": {
+                                        "section_title": "Latest From Blogs",
+                                        "section_subtitle": "News &amp; Press Release"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_partners",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_partners",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_partners",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_partners",
+                                    "settings": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "about": {
+            "title": "About Us",
+            "slug": "about",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "About Us",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "About Us"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_mission",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_mission",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_mission",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_about_mission",
+                                    "settings": {
+                                        "section_title": "Our Mission",
+                                        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore.",
+                                        "mission_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/about_mission.jpg"
+                                        },
+                                        "checklist_items": [
+                                            {
+                                                "item_text": "Natus erroroluptatem"
+                                            },
+                                            {
+                                                "item_text": "Natus erroroluptatem"
+                                            },
+                                            {
+                                                "item_text": "Accusantium doloremue"
+                                            },
+                                            {
+                                                "item_text": "Accusantium doloremue"
+                                            },
+                                            {
+                                                "item_text": "Laudantium unde"
+                                            },
+                                            {
+                                                "item_text": "Laudantium unde"
+                                            },
+                                            {
+                                                "item_text": "Natus error sit volupta"
+                                            },
+                                            {
+                                                "item_text": "Natus error sit volupta"
+                                            },
+                                            {
+                                                "item_text": "Accusantium dolor"
+                                            },
+                                            {
+                                                "item_text": "Accusantium dolor"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_features",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_features",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_features",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_about_features",
+                                    "settings": {
+                                        "plumber_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/about_plumber.jpg"
+                                        },
+                                        "features_list": [
+                                            {
+                                                "feature_title": "24/7 Availality",
+                                                "feature_desc": "Lorem ipsum dolor sit amet, consectetur elit. Vestibulum nec odio ipsum. Suspe ndisse cursus malesuada facilisis.",
+                                                "icon_preset": "clock"
+                                            },
+                                            {
+                                                "feature_title": "Certified Mechanics",
+                                                "feature_desc": "Lorem ipsum dolor sit amet, consectetur elit. Vestibulum nec odio ipsum. Suspe ndisse cursus malesuada facilisis.",
+                                                "icon_preset": "mechanic"
+                                            },
+                                            {
+                                                "feature_title": "No Hidden Cost",
+                                                "feature_desc": "Lorem ipsum dolor sit amet, consectetur elit. Vestibulum nec odio ipsum. Suspe ndisse cursus malesuada facilisis.",
+                                                "icon_preset": "hidden_cost"
+                                            },
+                                            {
+                                                "feature_title": "Affordable prices",
+                                                "feature_desc": "Lorem ipsum dolor sit amet, consectetur elit. Vestibulum nec odio ipsum. Suspe ndisse cursus malesuada facilisis.",
+                                                "icon_preset": "affordable"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_team",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_team",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_team",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_team",
+                                    "settings": {
+                                        "section_title": "Meet Our Specialists",
+                                        "source": "cpt"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_partners",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_partners",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_partners",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_partners",
+                                    "settings": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "services": {
+            "title": "Services",
+            "slug": "services",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Services 1",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Services"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_expertise",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_expertise",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_expertise",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_service_expertise",
+                                    "settings": {
+                                        "section_title": "25 Years of Expertise in Plumbing",
+                                        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.\n\nLorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor in-cidiamet consectetur adipiscing elit sed do eiusmod tempor.",
+                                        "phone_1_text": "01865 524 8503",
+                                        "phone_1_url": {
+                                            "url": "tel:018655248503"
+                                        },
+                                        "phone_2_text": "01865 524 8503",
+                                        "phone_2_url": {
+                                            "url": "mailto:info@plumberx.com"
+                                        },
+                                        "expertise_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/service1_expertise.jpg"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_tabs",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_tabs",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_tabs",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_services_tabs",
+                                    "settings": {
+                                        "section_title": "Services That We Offers",
+                                        "source": "cpt",
+                                        "plumber_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/service_tab_plumber.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_featured",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_featured",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_featured",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_featured_services",
+                                    "settings": {
+                                        "section_title": "Featured Services",
+                                        "cards_list": [
+                                            {
+                                                "card_title": "Residential Services",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_6.jpg"
+                                                },
+                                                "bg_light": "no"
+                                            },
+                                            {
+                                                "card_title": "Residential Services",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/home_hero_plumber.png"
+                                                },
+                                                "bg_light": "yes"
+                                            },
+                                            {
+                                                "card_title": "Residential Services",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_5.jpg"
+                                                },
+                                                "bg_light": "no"
+                                            },
+                                            {
+                                                "card_title": "Residential Services",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/team_tim_cock.png"
+                                                },
+                                                "bg_light": "yes"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "services-2": {
+            "title": "Services 2",
+            "slug": "services-2",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Services 2",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Services 2"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_services_grid",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_services_grid",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_services_grid",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_services_grid",
+                                    "settings": {
+                                        "section_title": "We offer Different Services",
+                                        "section_subtitle": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit.",
+                                        "show_splash": "yes",
+                                        "splash_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/water_splash.png"
+                                        },
+                                        "splash_width": 320,
+                                        "services_list": [
+                                            {
+                                                "card_title": "Plumbing Repairs",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_1.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Sewer Cleaning &amp; Repairs",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_2.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Drain Repairs &amp; Cleaning",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_3.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Faucet &amp; Leak Repairs",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_4.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Gas Line Service",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_5.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Remodeling Service",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_6.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Water Treatment Service",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_7.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Cooling &amp; Heating Service",
+                                                "card_image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/service2_8.jpg"
+                                                },
+                                                "card_desc": "Bring to the table win-win survival strategies to ensure proactive domination.",
+                                                "link_text": "Know More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "services-3": {
+            "title": "Services 3",
+            "slug": "services-3",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Services 3",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Services 3"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_services_icon_grid",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_services_icon_grid",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_services_icon_grid",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_services_icon_grid",
+                                    "settings": {
+                                        "section_title": "We offer Different Services",
+                                        "section_subtitle": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit.",
+                                        "show_splash": "",
+                                        "services_list": [
+                                            {
+                                                "card_title": "Plumbing Repairs",
+                                                "icon_preset": "repairs",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Sever Cleaning &amp; Repairs",
+                                                "icon_preset": "sewer",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Faucet &amp; Leak Repairs",
+                                                "icon_preset": "faucet",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Gas Line Service",
+                                                "icon_preset": "gas",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Remodeling Service",
+                                                "icon_preset": "remodel",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Water Treatment Services",
+                                                "icon_preset": "water",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Heating &amp; Cooling",
+                                                "icon_preset": "heating",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            },
+                                            {
+                                                "card_title": "Drain Cleaning &amp; Repairs",
+                                                "icon_preset": "drain",
+                                                "card_desc": "For the greater part of us, our house isn't only a place, it's the place .",
+                                                "link_text": "Read More",
+                                                "card_link": {
+                                                    "url": "/service-repair/"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "service-repair": {
+            "title": "Plumbing Repairs",
+            "slug": "service-repair",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Repair",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Repair"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_service_details",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_service_details",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_service_details",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_service_details",
+                                    "settings": {
+                                        "sidebar_menu": [
+                                            {
+                                                "menu_title": "Plumbing Repairs",
+                                                "menu_link": {
+                                                    "url": "/service-repair/"
+                                                },
+                                                "is_active": "yes"
+                                            },
+                                            {
+                                                "menu_title": "Sewer Cleaning &amp; Repairs",
+                                                "menu_link": {
+                                                    "url": "/service-repair/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Drain Repairs &amp; Cleaning",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Faucet &amp; Leak Repairs",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Gas Line Service",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Remodeling Service",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Water Treatment Service",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            },
+                                            {
+                                                "menu_title": "Heating &amp; Cooling",
+                                                "menu_link": {
+                                                    "url": "/services-2/"
+                                                },
+                                                "is_active": "no"
+                                            }
+                                        ],
+                                        "sidebar_promo_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/repair_sidebar_widget.jpg"
+                                        },
+                                        "downloads_title": "Downloads PDFs",
+                                        "downloads_list": [
+                                            {
+                                                "download_title": "Our Brochure PDF",
+                                                "icon_style": "doc",
+                                                "download_link": {
+                                                    "url": "#"
+                                                }
+                                            },
+                                            {
+                                                "download_title": "Our Recent Products",
+                                                "icon_style": "download",
+                                                "download_link": {
+                                                    "url": "#"
+                                                }
+                                            }
+                                        ],
+                                        "top_photo_1": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/repair_top_1.jpg"
+                                        },
+                                        "top_photo_2": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/repair_top_2.jpg"
+                                        },
+                                        "main_service_title": "Plumbing Repairs",
+                                        "paragraph_1": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+                                        "paragraph_2": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
+                                        "benefit_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/repair_benefit.jpg"
+                                        },
+                                        "benefit_title": "Benefit of Service",
+                                        "benefit_desc": "Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself.",
+                                        "benefit_checklist": [
+                                            {
+                                                "check_text": "Those who do not know how to pursue"
+                                            },
+                                            {
+                                                "check_text": "Pleasure rationally encounter"
+                                            },
+                                            {
+                                                "check_text": "Consequences that are extremely painful."
+                                            },
+                                            {
+                                                "check_text": "Nor again is there anyone who loves or pursues"
+                                            }
+                                        ],
+                                        "facts_title": "Some facts works with us",
+                                        "facts_subtitle": "Our management consulting services focus on our clients' most critical issues and opportunities: strategy, marketing, organization, operations, technology, transformation, digital.",
+                                        "facts_list": [
+                                            {
+                                                "fact_title": "Professional Team",
+                                                "fact_icon_type": "team",
+                                                "fact_desc": "Efficiently unleash cross-media informa-tion without cross-media value. Quickly maximize timely deliverables."
+                                            },
+                                            {
+                                                "fact_title": "Deadline Completion",
+                                                "fact_icon_type": "deadline",
+                                                "fact_desc": "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate."
+                                            },
+                                            {
+                                                "fact_title": "Best Strategy of Work",
+                                                "fact_icon_type": "strategy",
+                                                "fact_desc": "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate."
+                                            },
+                                            {
+                                                "fact_title": "Quality Work",
+                                                "fact_icon_type": "quality",
+                                                "fact_desc": "Efficiently unleash cross-media informa-tion without cross-media value. Quickly maximize timely deliverables."
+                                            }
+                                        ],
+                                        "faq_title": "More information",
+                                        "faq_subtitle": "Our management consulting services focus on our clients' most critical issues and opportunities: strategy, marketing, organization, operations, technology, digital.",
+                                        "faq_list": [
+                                            {
+                                                "faq_question": "Capitalize on low hanging fruit to identify a ballpark value added activity.",
+                                                "faq_answer": "Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids actual teachings of the great explorer of the truth, the master-builder of human actual teachings of the great explorer of the truth, the master-builder of human.",
+                                                "is_open": "yes"
+                                            },
+                                            {
+                                                "faq_question": "Digital divide with additional clickthroughs from DevOps.",
+                                                "faq_answer": "Podcasting operational change management inside of workflows to establish a horizontal pipeline. Taking seamless key performance indicators offline to maximise the long tail.",
+                                                "is_open": "no"
+                                            },
+                                            {
+                                                "faq_question": "Nanotechnology immersion along the information highway will close the loop.",
+                                                "faq_answer": "Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.",
+                                                "is_open": "no"
+                                            },
+                                            {
+                                                "faq_question": "Organically grow the holistic world view of disruptive innovation via workplace.",
+                                                "faq_answer": "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.",
+                                                "is_open": "no"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "emergency_title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "emergency_text": "If you have an emergency plumbing need, simply call our 24 hour emergency plumbing",
+                                        "phone_number": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "projects": {
+            "title": "Projects",
+            "slug": "projects",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Projects",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Projects"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_projects_gallery",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_projects_gallery",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_projects_gallery",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_projects_gallery",
+                                    "settings": {
+                                        "filters": [
+                                            {
+                                                "filter_label": "All",
+                                                "filter_slug": "all"
+                                            },
+                                            {
+                                                "filter_label": "Kitchen",
+                                                "filter_slug": "kitchen"
+                                            },
+                                            {
+                                                "filter_label": "Bathroom",
+                                                "filter_slug": "bathroom"
+                                            },
+                                            {
+                                                "filter_label": "Drain Cleaning",
+                                                "filter_slug": "drain"
+                                            },
+                                            {
+                                                "filter_label": "Outside Plumbing",
+                                                "filter_slug": "outside"
+                                            },
+                                            {
+                                                "filter_label": "Server Lines Cleaning",
+                                                "filter_slug": "server"
+                                            },
+                                            {
+                                                "filter_label": "Tank Leak Inspections",
+                                                "filter_slug": "tank"
+                                            }
+                                        ],
+                                        "projects": [
+                                            {
+                                                "title": "Commercial Plumbing Inspection",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_1-1.jpg",
+                                                    "id": 94
+                                                },
+                                                "category": "kitchen",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Bathroom Sink Plumbing",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_2-1.jpg",
+                                                    "id": 95
+                                                },
+                                                "category": "bathroom",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Outside Excavation &amp; Pipeline",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_3-1.jpg",
+                                                    "id": 96
+                                                },
+                                                "category": "outside",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Kitchen Drain Line Fix",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_4-1.jpg",
+                                                    "id": 97
+                                                },
+                                                "category": "kitchen",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "High Pressure Drain Clearing",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_5-1.jpg",
+                                                    "id": 98
+                                                },
+                                                "category": "drain",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Water Tank Valve Seal",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_6-1.jpg",
+                                                    "id": 99
+                                                },
+                                                "category": "tank",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Underground Sewer Pipe Connection",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_7-1.jpg",
+                                                    "id": 100
+                                                },
+                                                "category": "server",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Bathtub Faucet Replacement",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_8-1.jpg",
+                                                    "id": 101
+                                                },
+                                                "category": "bathroom",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            },
+                                            {
+                                                "title": "Kitchen P-Trap Assembly",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/project_9.jpg",
+                                                    "id": 102
+                                                },
+                                                "category": "drain",
+                                                "link": {
+                                                    "url": "/case-study/"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "case-study": {
+            "title": "Case Study",
+            "slug": "case-study",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Case Study",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_middle_text": "Pages",
+                                        "breadcrumb_middle_url": {
+                                            "url": "#"
+                                        },
+                                        "breadcrumb_current_text": "Case Study"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_case_study",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_case_study",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_case_study",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_case_study",
+                                    "settings": {
+                                        "desc_title": "Project Description",
+                                        "desc_text_1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+                                        "desc_text_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                                        "challenge_title": "The Challenge in Installation",
+                                        "challenge_text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                                        "challenge_text_2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco proident, sunt in culpa qui officia deserunt mollit anim id est laborum. aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+                                        "quote_text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non dolore magna aliqua. Ut enim ad minim veniam, quis in",
+                                        "quote_author": "Micale John, Client",
+                                        "final_title": "The Final View of Project",
+                                        "final_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco proident, sunt in culpa qui officia deserunt mollit.",
+                                        "img_top": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/case_study_1.jpg",
+                                            "id": 70
+                                        },
+                                        "alt_top": "Minimalist Bathroom Installation",
+                                        "img_mid_1": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/case_study_2.jpg",
+                                            "id": 71
+                                        },
+                                        "alt_mid_1": "Luxury Vanity Cabinet Work",
+                                        "img_mid_2": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/case_study_3.jpg",
+                                            "id": 72
+                                        },
+                                        "alt_mid_2": "Natural Stone Bathroom Bathtub",
+                                        "img_bottom": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/case_study_4.jpg",
+                                            "id": 73
+                                        },
+                                        "alt_bottom": "Finished Modern Blue Bathroom Project"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "subtitle": "If you have an emergency plumbing need, simply call our 24 hour emergecny plumbing",
+                                        "phone": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_url": {
+                                            "url": "/contact/"
+                                        },
+                                        "plumber_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_plumber.png"
+                                        },
+                                        "wrench_img": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/emergency_wrench.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "pricing": {
+            "title": "Price Plans",
+            "slug": "pricing",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Price",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_middle_text": "Pages",
+                                        "breadcrumb_middle_url": {
+                                            "url": "#"
+                                        },
+                                        "breadcrumb_current_text": "Price"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_pricing",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_pricing",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_pricing",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_pricing",
+                                    "settings": {
+                                        "title": "We always offer value for money with totally transparent charges",
+                                        "description": "Don't hesitate to ask any plumbing or repairing questions via telephone, or reach through our contact structure underneath. Your message will be dispatched straightforwardly to our staff who will reply when they can.",
+                                        "pricing_list": [
+                                            {
+                                                "_id": "card_1",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_1.jpg",
+                                                    "id": 83
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_2",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_2.jpg",
+                                                    "id": 86
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_3",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_3.jpg",
+                                                    "id": 87
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_4",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_4.jpg",
+                                                    "id": 88
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_5",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_5.jpg",
+                                                    "id": 89
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_6",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_6.jpg",
+                                                    "id": 90
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_7",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_7.jpg",
+                                                    "id": 91
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_8",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_8.jpg",
+                                                    "id": 92
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_9",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_9.jpg",
+                                                    "id": 93
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_10",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_10.jpg",
+                                                    "id": 84
+                                                }
+                                            },
+                                            {
+                                                "_id": "card_11",
+                                                "title": "Repair a Sewer Main",
+                                                "price": "$199",
+                                                "avg_label": "Average",
+                                                "image": {
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/price_11.jpg",
+                                                    "id": 85
+                                                }
+                                            }
+                                        ],
+                                        "show_query_card": "yes",
+                                        "query_title": "Contact us for any other Querry",
+                                        "query_link_text": "Click here",
+                                        "query_link_url": {
+                                            "url": "/contact/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "blog": {
+            "title": "Blog",
+            "slug": "blog",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_blog_hero",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_blog_hero",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_blog_hero",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_blog_hero",
+                                    "settings": {
+                                        "title": "Blog",
+                                        "van_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/blog_banner_van.png",
+                                            "id": 140
+                                        },
+                                        "bg_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/blog_top_crop.jpg",
+                                            "id": 69
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_blog_list",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_blog_list",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_blog_list",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_blog_list",
+                                    "settings": {
+                                        "posts_per_page": 4,
+                                        "show_pagination": "yes",
+                                        "show_sidebar": "yes",
+                                        "show_search": "yes",
+                                        "search_title": "Search",
+                                        "show_categories": "yes",
+                                        "categories_title": "Categories",
+                                        "show_recent_news": "yes",
+                                        "recent_news_title": "Recent News",
+                                        "show_tags": "yes",
+                                        "tags_title": "Tags"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact Us",
+            "slug": "contact",
+            "content": "",
+            "template": "default",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_banner",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_banner",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_banner",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_subpage_banner",
+                                    "settings": {
+                                        "title": "Contact Us",
+                                        "show_breadcrumb": "yes",
+                                        "breadcrumb_parent_text": "Home",
+                                        "breadcrumb_parent_url": {
+                                            "url": "/"
+                                        },
+                                        "breadcrumb_current_text": "Contact Us"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_contact",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_contact",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_contact",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_contact",
+                                    "settings": {
+                                        "intro_text": "You can talk to our online representative at any time. Please use our Live Chat System on our website or Fill up below instant messaging programs. Please be patient, We will get back to you.",
+                                        "highlight_text": "Our 24/7 Support, General Inquireies Phone: + 1800 654 321",
+                                        "info_title": "Contact info",
+                                        "info_subtitle": "Have any Queries? Let us know. We will clear it for you at the best.",
+                                        "office_label": "Office",
+                                        "office_value": "Plumberx Company, 215, Mallin Street\nNew Youk, NY 100 254",
+                                        "email_label": "Email :",
+                                        "email_value": "contact@plumberx.com\ninfo@plumberx.com",
+                                        "phone_label": "Phone :",
+                                        "phone_value": "+0120 123 4 56 789\n+0120 987 65419",
+                                        "button_text": "SUBMIT NOW",
+                                        "show_map": "yes",
+                                        "map_image": {
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/contact_map.jpg",
+                                            "id": 74
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "subtitle": "If you have an emergency plumbing need, simply call our 24 hour emergecny plumbing",
+                                        "phone": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "shop": {
+            "title": "Shop",
+            "slug": "shop",
+            "content": "",
+            "template": "",
+            "edit_mode": "builder",
+            "template_type": "wp-page",
+            "elementor_data": [
+                {
+                    "id": "sec_shop_hero",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_shop_hero",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_shop_hero",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_shop_hero",
+                                    "settings": {
+                                        "title_red": "Our Featured",
+                                        "title_cyan": "Products",
+                                        "description": "Our plumbing professionals are thoroughly trained to assess the situation and effectively respond in a way that treats the source of the problems.",
+                                        "button_text": "Shop Now",
+                                        "button_link": {
+                                            "url": "#shopProducts"
+                                        },
+                                        "hero_image": {
+                                            "id": 153,
+                                            "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_hero_toilet_clean.png"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_shop_highlights",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_shop_highlights",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_shop_highlights",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_shop_highlights",
+                                    "settings": {
+                                        "highlights": [
+                                            {
+                                                "title": "FREE SHIPPING",
+                                                "description": "Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla.",
+                                                "icon_preset": "truck"
+                                            },
+                                            {
+                                                "title": "SALE 15% OFF",
+                                                "description": "Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla.",
+                                                "icon_preset": "tag"
+                                            },
+                                            {
+                                                "title": "NEW ARRIVAL",
+                                                "description": "Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla.",
+                                                "icon_preset": "star"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_shop_products",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_shop_products",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_shop_products",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_shop_products",
+                                    "settings": {
+                                        "title_primary": "Products",
+                                        "title_secondary": "from our Store",
+                                        "source_mode": "repeater",
+                                        "custom_products": [
+                                            {
+                                                "title": "Screw Driver 1",
+                                                "price": "$33.00",
+                                                "price_number": 33,
+                                                "image": {
+                                                    "id": 119,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_1-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            },
+                                            {
+                                                "title": "Plumbing Tools",
+                                                "price": "$15.00",
+                                                "price_number": 15,
+                                                "image": {
+                                                    "id": 120,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_2-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            },
+                                            {
+                                                "title": "Safety Items",
+                                                "price": "$35.00",
+                                                "price_number": 35,
+                                                "image": {
+                                                    "id": 121,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_3-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            },
+                                            {
+                                                "title": "Plumber Cap",
+                                                "price": "$35.00",
+                                                "price_number": 35,
+                                                "image": {
+                                                    "id": 122,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_4-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            },
+                                            {
+                                                "title": "Screws Box",
+                                                "price": "$35.00",
+                                                "price_number": 35,
+                                                "image": {
+                                                    "id": 123,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_5-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            },
+                                            {
+                                                "title": "Bolts And Nuts",
+                                                "price": "$55.00",
+                                                "price_number": 55,
+                                                "image": {
+                                                    "id": 124,
+                                                    "url": "http://localhost:8080/wp-content/uploads/2026/10/shop_item_6-1.jpg"
+                                                },
+                                                "button_text": "ADD TO CART"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sec_emergency",
+                    "elType": "section",
+                    "isInner": false,
+                    "settings": {
+                        "layout": "full_width",
+                        "gap": "no"
+                    },
+                    "elements": [
+                        {
+                            "id": "col_emergency",
+                            "elType": "column",
+                            "isInner": false,
+                            "settings": {
+                                "_column_size": 100
+                            },
+                            "elements": [
+                                {
+                                    "id": "wgt_emergency",
+                                    "elType": "widget",
+                                    "widgetType": "plumberx_emergency_banner",
+                                    "settings": {
+                                        "title": "Emergency Leaks &amp; Pipe Bursts",
+                                        "subtitle": "If you have an emergency plumbing need, simply call our 24 hour emergecny plumbing",
+                                        "phone": "01865 524 8503",
+                                        "btn_text": "CONTACT US",
+                                        "btn_link": {
+                                            "url": "/contact/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "posts": [
+        {
+            "title": "These cases are simple Standard",
+            "slug": "these-cases-are-simple-standard",
+            "content": "<p class=\"blog-dropcap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur.</p>\n<div style=\"margin: 30px 0; padding: 18px 25px; text-align: center; border-top: 2px solid #38bdf8; border-bottom: 2px solid #38bdf8; background: #f8fafc;\">\n  <h4 style=\"font-size: 13.5px; font-weight: 700; color: #475569; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.5; margin: 0;\">INREPREHEN DERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE. EU FUGIAT NULLA PARIATUR QUI DOLOREM IPSUM</h4>\n</div>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet,</p>\n<p>consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor...",
+            "categories": [
+                "Adventure"
+            ],
+            "thumb_file": "blog_main_1.jpg"
+        },
+        {
+            "title": "Incapable of drawing an Image",
+            "slug": "incapable-of-drawing-an-image",
+            "content": "<p class=\"blog-dropcap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur.</p>\n<div style=\"margin: 30px 0; padding: 18px 25px; text-align: center; border-top: 2px solid #38bdf8; border-bottom: 2px solid #38bdf8; background: #f8fafc;\">\n  <h4 style=\"font-size: 13.5px; font-weight: 700; color: #475569; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.5; margin: 0;\">INREPREHEN DERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE. EU FUGIAT NULLA PARIATUR QUI DOLOREM IPSUM</h4>\n</div>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet,</p>\n<p>consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor...",
+            "categories": [
+                "Explore"
+            ],
+            "thumb_file": "blog_main_2.jpg"
+        },
+        {
+            "title": "It is an almost life for us Gallery",
+            "slug": "it-is-an-almost-life-for-us-gallery",
+            "content": "<p class=\"blog-dropcap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur.</p>\n<div style=\"margin: 30px 0; padding: 18px 25px; text-align: center; border-top: 2px solid #38bdf8; border-bottom: 2px solid #38bdf8; background: #f8fafc;\">\n  <h4 style=\"font-size: 13.5px; font-weight: 700; color: #475569; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.5; margin: 0;\">INREPREHEN DERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE. EU FUGIAT NULLA PARIATUR QUI DOLOREM IPSUM</h4>\n</div>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet,</p>\n<p>consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor...",
+            "categories": [
+                "National parks"
+            ],
+            "thumb_file": "blog_main_3.jpg"
+        },
+        {
+            "title": "Many desktop publishing Audio",
+            "slug": "many-desktop-publishing-audio",
+            "content": "<p class=\"blog-dropcap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur.</p>\n<div style=\"margin: 30px 0; padding: 18px 25px; text-align: center; border-top: 2px solid #38bdf8; border-bottom: 2px solid #38bdf8; background: #f8fafc;\">\n  <h4 style=\"font-size: 13.5px; font-weight: 700; color: #475569; letter-spacing: 0.8px; text-transform: uppercase; line-height: 1.5; margin: 0;\">INREPREHEN DERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE. EU FUGIAT NULLA PARIATUR QUI DOLOREM IPSUM</h4>\n</div>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet,</p>\n<p>consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>\n<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>",
+            "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incidiut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Eiusmod tempor...",
+            "categories": [
+                "Travel guide"
+            ],
+            "thumb_file": "blog_main_4.jpg"
+        }
+    ],
+    "products": [
+        {
+            "title": "Screw Driver 1",
+            "slug": "lead-free-brass-backflow-preventer-valve",
+            "price": "33.00",
+            "thumb_file": "shop_item_1-1.jpg"
+        },
+        {
+            "title": "Plumbing Tools",
+            "slug": "professional-cast-iron-pipe-wrench-14-inch",
+            "price": "15.00",
+            "thumb_file": "shop_item_2-1.jpg"
+        },
+        {
+            "title": "Safety Items",
+            "slug": "dual-flush-water-saving-toilet-suite",
+            "price": "35.00",
+            "thumb_file": "shop_item_3-1.jpg"
+        },
+        {
+            "title": "Plumber Cap",
+            "slug": "high-arc-commercial-kitchen-faucet",
+            "price": "35.00",
+            "thumb_file": "shop_item_4-1.jpg"
+        },
+        {
+            "title": "Screws Box",
+            "slug": "heavy-duty-submersible-sump-pump-1-2-hp",
+            "price": "35.00",
+            "thumb_file": "shop_item_5-1.jpg"
+        },
+        {
+            "title": "Bolts And Nuts",
+            "slug": "tankless-ultra-efficient-hot-water-heater",
+            "price": "55.00",
+            "thumb_file": "shop_item_6-1.jpg"
+        }
+    ],
+    "menu": [
+        {
+            "title": "Home",
+            "url": "http://localhost:8080/",
+            "parent": "0",
+            "db_id": 170,
+            "order": 1
+        },
+        {
+            "title": "About Us",
+            "url": "http://localhost:8080/about/",
+            "parent": "0",
+            "db_id": 171,
+            "order": 2
+        },
+        {
+            "title": "Services",
+            "url": "http://localhost:8080/services/",
+            "parent": "0",
+            "db_id": 172,
+            "order": 3
+        },
+        {
+            "title": "Services 1",
+            "url": "http://localhost:8080/services/",
+            "parent": "172",
+            "db_id": 173,
+            "order": 4
+        },
+        {
+            "title": "Services 2",
+            "url": "http://localhost:8080/services-2/",
+            "parent": "172",
+            "db_id": 174,
+            "order": 5
+        },
+        {
+            "title": "Services 3",
+            "url": "http://localhost:8080/services-3/",
+            "parent": "172",
+            "db_id": 175,
+            "order": 6
+        },
+        {
+            "title": "Plumbing Repairs",
+            "url": "http://localhost:8080/service-repair/",
+            "parent": "172",
+            "db_id": 176,
+            "order": 7
+        },
+        {
+            "title": "Projects",
+            "url": "http://localhost:8080/projects/",
+            "parent": "0",
+            "db_id": 177,
+            "order": 8
+        },
+        {
+            "title": "Pages",
+            "url": "http://localhost:8080/case-study/",
+            "parent": "0",
+            "db_id": 178,
+            "order": 9
+        },
+        {
+            "title": "Case Study",
+            "url": "http://localhost:8080/case-study/",
+            "parent": "178",
+            "db_id": 179,
+            "order": 10
+        },
+        {
+            "title": "Price Plans",
+            "url": "http://localhost:8080/pricing/",
+            "parent": "178",
+            "db_id": 180,
+            "order": 11
+        },
+        {
+            "title": "Shop Page",
+            "url": "http://localhost:8080/shop/",
+            "parent": "178",
+            "db_id": 181,
+            "order": 12
+        },
+        {
+            "title": "Blog",
+            "url": "http://localhost:8080/blog/",
+            "parent": "0",
+            "db_id": 182,
+            "order": 13
+        },
+        {
+            "title": "Blog Default",
+            "url": "http://localhost:8080/blog/",
+            "parent": "182",
+            "db_id": 183,
+            "order": 14
+        },
+        {
+            "title": "Single Blog Post",
+            "url": "http://localhost:8080/these-cases-are-simple-standard/",
+            "parent": "182",
+            "db_id": 184,
+            "order": 15
+        },
+        {
+            "title": "Shop",
+            "url": "http://localhost:8080/shop/",
+            "parent": "0",
+            "db_id": 185,
+            "order": 16
+        },
+        {
+            "title": "Contact Us",
+            "url": "http://localhost:8080/contact/",
+            "parent": "0",
+            "db_id": 186,
+            "order": 17
+        }
+    ],
+    "options": {
+        "show_on_front": "page",
+        "page_on_front_slug": "home",
+        "page_for_posts_slug": "blog",
+        "woocommerce_shop_page": "shop",
+        "woocommerce_coming_soon": "no"
+    },
+    "attachments": [
+        {
+            "id": 158,
+            "title": "water splash",
+            "filename": "water_splash.png"
+        },
+        {
+            "id": 157,
+            "title": "team tim cock",
+            "filename": "team_tim_cock.png"
+        },
+        {
+            "id": 156,
+            "title": "team rock lelu 2",
+            "filename": "team_rock_lelu_2.png"
+        },
+        {
+            "id": 155,
+            "title": "team rock lelu",
+            "filename": "team_rock_lelu.png"
+        },
+        {
+            "id": 154,
+            "title": "team michale rock",
+            "filename": "team_michale_rock.png"
+        },
+        {
+            "id": 153,
+            "title": "shop hero toilet clean",
+            "filename": "shop_hero_toilet_clean.png"
+        },
+        {
+            "id": 152,
+            "title": "shop hero toilet",
+            "filename": "shop_hero_toilet.png"
+        },
+        {
+            "id": 151,
+            "title": "service tab plumber",
+            "filename": "service_tab_plumber.png"
+        },
+        {
+            "id": 150,
+            "title": "partner logos",
+            "filename": "partner_logos.png"
+        },
+        {
+            "id": 149,
+            "title": "logo raw",
+            "filename": "logo_raw.png"
+        },
+        {
+            "id": 148,
+            "title": "logo clean",
+            "filename": "logo_clean.png"
+        },
+        {
+            "id": 147,
+            "title": "logo",
+            "filename": "logo.png"
+        },
+        {
+            "id": 146,
+            "title": "home hero plumber",
+            "filename": "home_hero_plumber.png"
+        },
+        {
+            "id": 145,
+            "title": "footer plumber",
+            "filename": "footer_plumber.png"
+        },
+        {
+            "id": 144,
+            "title": "footer cards",
+            "filename": "footer_cards.png"
+        },
+        {
+            "id": 143,
+            "title": "footer badge",
+            "filename": "footer_badge.png"
+        },
+        {
+            "id": 142,
+            "title": "emergency wrench",
+            "filename": "emergency_wrench.png"
+        },
+        {
+            "id": 141,
+            "title": "emergency plumber",
+            "filename": "emergency_plumber.png"
+        },
+        {
+            "id": 140,
+            "title": "blog banner van",
+            "filename": "blog_banner_van.png"
+        },
+        {
+            "id": 139,
+            "title": "author avatar",
+            "filename": "author_avatar.png"
+        },
+        {
+            "id": 138,
+            "title": "testimonial avatar 7",
+            "filename": "testimonial_avatar_7.jpg"
+        },
+        {
+            "id": 137,
+            "title": "testimonial avatar 6",
+            "filename": "testimonial_avatar_6.jpg"
+        },
+        {
+            "id": 136,
+            "title": "testimonial avatar 5",
+            "filename": "testimonial_avatar_5.jpg"
+        },
+        {
+            "id": 135,
+            "title": "testimonial avatar 4",
+            "filename": "testimonial_avatar_4.jpg"
+        },
+        {
+            "id": 134,
+            "title": "testimonial avatar 3",
+            "filename": "testimonial_avatar_3.jpg"
+        },
+        {
+            "id": 133,
+            "title": "testimonial avatar 2",
+            "filename": "testimonial_avatar_2.jpg"
+        },
+        {
+            "id": 132,
+            "title": "testimonial avatar 1",
+            "filename": "testimonial_avatar_1.jpg"
+        },
+        {
+            "id": 131,
+            "title": "testimonial 6",
+            "filename": "testimonial_6.jpg"
+        },
+        {
+            "id": 130,
+            "title": "testimonial 5",
+            "filename": "testimonial_5.jpg"
+        },
+        {
+            "id": 129,
+            "title": "testimonial 4",
+            "filename": "testimonial_4.jpg"
+        },
+        {
+            "id": 128,
+            "title": "testimonial 3",
+            "filename": "testimonial_3.jpg"
+        },
+        {
+            "id": 127,
+            "title": "testimonial 2",
+            "filename": "testimonial_2.jpg"
+        },
+        {
+            "id": 126,
+            "title": "testimonial 1",
+            "filename": "testimonial_1.jpg"
+        },
+        {
+            "id": 125,
+            "title": "subpage banner raw",
+            "filename": "subpage_banner_raw.jpg"
+        },
+        {
+            "id": 124,
+            "title": "shop item 6",
+            "filename": "shop_item_6-1.jpg"
+        },
+        {
+            "id": 123,
+            "title": "shop item 5",
+            "filename": "shop_item_5-1.jpg"
+        },
+        {
+            "id": 122,
+            "title": "shop item 4",
+            "filename": "shop_item_4-1.jpg"
+        },
+        {
+            "id": 121,
+            "title": "shop item 3",
+            "filename": "shop_item_3-1.jpg"
+        },
+        {
+            "id": 120,
+            "title": "shop item 2",
+            "filename": "shop_item_2-1.jpg"
+        },
+        {
+            "id": 119,
+            "title": "shop item 1",
+            "filename": "shop_item_1-1.jpg"
+        },
+        {
+            "id": 118,
+            "title": "service tab kitchen",
+            "filename": "service_tab_kitchen.jpg"
+        },
+        {
+            "id": 117,
+            "title": "service2 8",
+            "filename": "service2_8.jpg"
+        },
+        {
+            "id": 116,
+            "title": "service2 7",
+            "filename": "service2_7.jpg"
+        },
+        {
+            "id": 115,
+            "title": "service2 6",
+            "filename": "service2_6.jpg"
+        },
+        {
+            "id": 114,
+            "title": "service2 5",
+            "filename": "service2_5.jpg"
+        },
+        {
+            "id": 113,
+            "title": "service2 4",
+            "filename": "service2_4.jpg"
+        },
+        {
+            "id": 112,
+            "title": "service2 3",
+            "filename": "service2_3.jpg"
+        },
+        {
+            "id": 111,
+            "title": "service2 2",
+            "filename": "service2_2.jpg"
+        },
+        {
+            "id": 110,
+            "title": "service2 1",
+            "filename": "service2_1.jpg"
+        },
+        {
+            "id": 109,
+            "title": "service1 featured slice",
+            "filename": "service1_featured_slice.jpg"
+        },
+        {
+            "id": 108,
+            "title": "service1 feat 1",
+            "filename": "service1_feat_1.jpg"
+        },
+        {
+            "id": 107,
+            "title": "service1 expertise",
+            "filename": "service1_expertise.jpg"
+        },
+        {
+            "id": 106,
+            "title": "repair top 2",
+            "filename": "repair_top_2.jpg"
+        },
+        {
+            "id": 105,
+            "title": "repair top 1",
+            "filename": "repair_top_1.jpg"
+        },
+        {
+            "id": 104,
+            "title": "repair sidebar widget",
+            "filename": "repair_sidebar_widget.jpg"
+        },
+        {
+            "id": 103,
+            "title": "repair benefit",
+            "filename": "repair_benefit.jpg"
+        },
+        {
+            "id": 102,
+            "title": "project 9",
+            "filename": "project_9.jpg"
+        },
+        {
+            "id": 101,
+            "title": "project 8",
+            "filename": "project_8-1.jpg"
+        },
+        {
+            "id": 100,
+            "title": "project 7",
+            "filename": "project_7-1.jpg"
+        },
+        {
+            "id": 99,
+            "title": "project 6",
+            "filename": "project_6-1.jpg"
+        },
+        {
+            "id": 98,
+            "title": "project 5",
+            "filename": "project_5-1.jpg"
+        },
+        {
+            "id": 97,
+            "title": "project 4",
+            "filename": "project_4-1.jpg"
+        },
+        {
+            "id": 96,
+            "title": "project 3",
+            "filename": "project_3-1.jpg"
+        },
+        {
+            "id": 95,
+            "title": "project 2",
+            "filename": "project_2-1.jpg"
+        },
+        {
+            "id": 94,
+            "title": "project 1",
+            "filename": "project_1-1.jpg"
+        },
+        {
+            "id": 93,
+            "title": "price 9",
+            "filename": "price_9.jpg"
+        },
+        {
+            "id": 92,
+            "title": "price 8",
+            "filename": "price_8.jpg"
+        },
+        {
+            "id": 91,
+            "title": "price 7",
+            "filename": "price_7.jpg"
+        },
+        {
+            "id": 90,
+            "title": "price 6",
+            "filename": "price_6.jpg"
+        },
+        {
+            "id": 89,
+            "title": "price 5",
+            "filename": "price_5.jpg"
+        },
+        {
+            "id": 88,
+            "title": "price 4",
+            "filename": "price_4.jpg"
+        },
+        {
+            "id": 87,
+            "title": "price 3",
+            "filename": "price_3.jpg"
+        },
+        {
+            "id": 86,
+            "title": "price 2",
+            "filename": "price_2.jpg"
+        },
+        {
+            "id": 85,
+            "title": "price 11",
+            "filename": "price_11.jpg"
+        },
+        {
+            "id": 84,
+            "title": "price 10",
+            "filename": "price_10.jpg"
+        },
+        {
+            "id": 83,
+            "title": "price 1",
+            "filename": "price_1.jpg"
+        },
+        {
+            "id": 82,
+            "title": "home hero bg",
+            "filename": "home_hero_bg.jpg"
+        },
+        {
+            "id": 81,
+            "title": "home certified card1",
+            "filename": "home_certified_card1.jpg"
+        },
+        {
+            "id": 80,
+            "title": "home certified 3",
+            "filename": "home_certified_3.jpg"
+        },
+        {
+            "id": 79,
+            "title": "home certified 2",
+            "filename": "home_certified_2.jpg"
+        },
+        {
+            "id": 78,
+            "title": "home certified 1",
+            "filename": "home_certified_1.jpg"
+        },
+        {
+            "id": 77,
+            "title": "home blog 2",
+            "filename": "home_blog_2.jpg"
+        },
+        {
+            "id": 76,
+            "title": "home blog 1",
+            "filename": "home_blog_1.jpg"
+        },
+        {
+            "id": 75,
+            "title": "emergency banner full",
+            "filename": "emergency_banner_full.jpg"
+        },
+        {
+            "id": 74,
+            "title": "contact map",
+            "filename": "contact_map.jpg"
+        },
+        {
+            "id": 73,
+            "title": "case study 4",
+            "filename": "case_study_4.jpg"
+        },
+        {
+            "id": 72,
+            "title": "case study 3",
+            "filename": "case_study_3.jpg"
+        },
+        {
+            "id": 71,
+            "title": "case study 2",
+            "filename": "case_study_2.jpg"
+        },
+        {
+            "id": 70,
+            "title": "case study 1",
+            "filename": "case_study_1.jpg"
+        },
+        {
+            "id": 69,
+            "title": "blog top crop",
+            "filename": "blog_top_crop.jpg"
+        },
+        {
+            "id": 68,
+            "title": "blog thumb 7",
+            "filename": "blog_thumb_7.jpg"
+        },
+        {
+            "id": 67,
+            "title": "blog thumb 6",
+            "filename": "blog_thumb_6.jpg"
+        },
+        {
+            "id": 66,
+            "title": "blog thumb 5",
+            "filename": "blog_thumb_5.jpg"
+        },
+        {
+            "id": 65,
+            "title": "blog thumb 4",
+            "filename": "blog_thumb_4.jpg"
+        },
+        {
+            "id": 64,
+            "title": "blog thumb 3",
+            "filename": "blog_thumb_3.jpg"
+        },
+        {
+            "id": 63,
+            "title": "blog thumb 2",
+            "filename": "blog_thumb_2.jpg"
+        },
+        {
+            "id": 62,
+            "title": "blog thumb 1",
+            "filename": "blog_thumb_1.jpg"
+        },
+        {
+            "id": 61,
+            "title": "blog single featured",
+            "filename": "blog_single_featured.jpg"
+        },
+        {
+            "id": 60,
+            "title": "blog sidebar news",
+            "filename": "blog_sidebar_news.jpg"
+        },
+        {
+            "id": 59,
+            "title": "blog main 4",
+            "filename": "blog_main_4.jpg"
+        },
+        {
+            "id": 58,
+            "title": "blog main 3",
+            "filename": "blog_main_3.jpg"
+        },
+        {
+            "id": 57,
+            "title": "blog main 2",
+            "filename": "blog_main_2.jpg"
+        },
+        {
+            "id": 56,
+            "title": "blog main 1",
+            "filename": "blog_main_1.jpg"
+        },
+        {
+            "id": 55,
+            "title": "about plumber",
+            "filename": "about_plumber.jpg"
+        },
+        {
+            "id": 54,
+            "title": "about mission",
+            "filename": "about_mission.jpg"
+        },
+        {
+            "id": 51,
+            "title": "project_8",
+            "filename": "project_8.jpg"
+        },
+        {
+            "id": 50,
+            "title": "project_7",
+            "filename": "project_7.jpg"
+        },
+        {
+            "id": 49,
+            "title": "project_6",
+            "filename": "project_6.jpg"
+        },
+        {
+            "id": 48,
+            "title": "project_5",
+            "filename": "project_5.jpg"
+        },
+        {
+            "id": 47,
+            "title": "project_4",
+            "filename": "project_4.jpg"
+        },
+        {
+            "id": 46,
+            "title": "project_3",
+            "filename": "project_3.jpg"
+        },
+        {
+            "id": 45,
+            "title": "project_2",
+            "filename": "project_2.jpg"
+        },
+        {
+            "id": 44,
+            "title": "project_1",
+            "filename": "project_1.jpg"
+        },
+        {
+            "id": 43,
+            "title": "shop_item_6",
+            "filename": "shop_item_6.jpg"
+        },
+        {
+            "id": 42,
+            "title": "shop_item_5",
+            "filename": "shop_item_5.jpg"
+        },
+        {
+            "id": 41,
+            "title": "shop_item_4",
+            "filename": "shop_item_4.jpg"
+        },
+        {
+            "id": 40,
+            "title": "shop_item_3",
+            "filename": "shop_item_3.jpg"
+        },
+        {
+            "id": 39,
+            "title": "shop_item_2",
+            "filename": "shop_item_2.jpg"
+        },
+        {
+            "id": 38,
+            "title": "shop_item_1",
+            "filename": "shop_item_1.jpg"
+        },
+        {
+            "id": 5,
+            "title": "woocommerce-placeholder",
+            "filename": "woocommerce-placeholder.webp"
+        }
+    ]
+}
