@@ -75,6 +75,7 @@ class PlumberX_Elementor_Extension {
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/about-features-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/service-expertise-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/featured-services-widget.php';
+        require_once PLUMBERX_DIR . '/inc/elementor/widgets/services-grid-widget.php';
 
         // Register with manager
         $widgets_manager->register( new \PlumberX_Hero_Widget() );
@@ -93,6 +94,7 @@ class PlumberX_Elementor_Extension {
         $widgets_manager->register( new \PlumberX_About_Features_Widget() );
         $widgets_manager->register( new \PlumberX_Service_Expertise_Widget() );
         $widgets_manager->register( new \PlumberX_Featured_Services_Widget() );
+        $widgets_manager->register( new \PlumberX_Services_Grid_Widget() );
     }
 }
 

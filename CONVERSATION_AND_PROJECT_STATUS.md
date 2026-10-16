@@ -52,6 +52,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_About_Features_Widget` | `plumberx_about_features` | `about-features-widget.php` | Cyan banner with plumber cutout & 4 feature boxes with SVGs |
 | `PlumberX_Service_Expertise_Widget` | `plumberx_service_expertise` | `service-expertise-widget.php` | 25 Years of Expertise section with dual phone/email action buttons |
 | `PlumberX_Featured_Services_Widget` | `plumberx_featured_services` | `featured-services-widget.php` | Dark blue section with 4 featured service cards |
+| `PlumberX_Services_Grid_Widget` | `plumberx_services_grid` | `services-grid-widget.php` | 8-card grid for Services 2 with images, titles, descriptions, links, and decorative water splash |
 
 ---
 
@@ -84,13 +85,33 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   6. Request Free Quote Strip Button & Global Footer.
 - **Key Fix:** Updated `plumberx_service` custom post type rewrite rules in `functions.php` (`has_archive => false`, `rewrite => ['slug' => 'service']`) so `/services/` routes directly to the Elementor Page instead of CPT archive.
 
+### ✅ Page 4: Services 2 (`/services-2/`, Post ID 161)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Services 2", Breadcrumb "Home > Services 2".
+  2. We Offer Different Services Section (`plumberx_services_grid`):
+     - Section Header: Title "We offer Different Services", Subtitle text.
+     - 8 Service Cards:
+       1. Plumbing Repairs (`service2_1.jpg`)
+       2. Sewer Cleaning & Repairs (`service2_2.jpg`)
+       3. Drain Repairs & Cleaning (`service2_3.jpg`)
+       4. Faucet & Leak Repairs (`service2_4.jpg`)
+       5. Gas Line Service (`service2_5.jpg`)
+       6. Remodeling Service (`service2_6.jpg`)
+       7. Water Treatment Service (`service2_7.jpg`)
+       8. Cooling & Heating Service (`service2_8.jpg`)
+     - Each card with hover animation, image, title, description, and italic "Know More" link.
+     - Decorative water splash graphic (`water_splash.png`) at bottom right.
+  3. Emergency Banner (`plumberx_emergency_banner`): Urgent 24/7 callout banner with plumber cutout, wrench cutout, direct call link, and contact button.
+  4. Request Free Quote Strip Button & Global Footer: Provided cleanly without duplicates.
+- **Verification:** Verified in browser with full visual inspection and screenshots.
+
 ---
 
 ## 5. Remaining Pages Roadmap
 
 | Page | Static Template | WordPress Slug / ID | Priority / Status |
 |---|---|---|---|
-| **Services 2** | `services-2.html` | `/services-2/` (ID 161) | Up next |
 | **Services 3** | `services-3.html` | `/services-3/` (ID 162) | Up next |
 | **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | Up next |
 | **Projects** | `projects.html` | `/projects/` (ID 164) | Pending |

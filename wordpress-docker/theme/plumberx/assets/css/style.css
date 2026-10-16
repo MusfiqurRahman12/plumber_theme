@@ -3891,7 +3891,13 @@ button, input, select, textarea {
 .elementor-widget-plumberx_testimonials,
 .elementor-widget-plumberx_emergency_banner,
 .elementor-widget-plumberx_blog,
-.elementor-widget-plumberx_partners {
+.elementor-widget-plumberx_partners,
+.elementor-widget-plumberx_subpage_banner,
+.elementor-widget-plumberx_about_mission,
+.elementor-widget-plumberx_about_features,
+.elementor-widget-plumberx_service_expertise,
+.elementor-widget-plumberx_featured_services,
+.elementor-widget-plumberx_services_grid {
   width: 100%;
 }
 
@@ -3905,7 +3911,13 @@ button, input, select, textarea {
 .elementor-widget-plumberx_testimonials .elementor-widget-container,
 .elementor-widget-plumberx_emergency_banner .elementor-widget-container,
 .elementor-widget-plumberx_blog .elementor-widget-container,
-.elementor-widget-plumberx_partners .elementor-widget-container {
+.elementor-widget-plumberx_partners .elementor-widget-container,
+.elementor-widget-plumberx_subpage_banner .elementor-widget-container,
+.elementor-widget-plumberx_about_mission .elementor-widget-container,
+.elementor-widget-plumberx_about_features .elementor-widget-container,
+.elementor-widget-plumberx_service_expertise .elementor-widget-container,
+.elementor-widget-plumberx_featured_services .elementor-widget-container,
+.elementor-widget-plumberx_services_grid .elementor-widget-container {
   padding: 0 !important;
   margin: 0 !important;
 }
