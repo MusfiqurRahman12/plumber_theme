@@ -58,6 +58,8 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Projects_Gallery_Widget` | `plumberx_projects_gallery` | `projects-gallery-widget.php` | Filterable 9-item project gallery grid with interactive category navigation, FLIP shuffle animation, and lightbox zoom modal |
 | `PlumberX_Case_Study_Widget` | `plumberx_case_study` | `case-study-widget.php` | Two-column case study story and progress gallery with custom description, challenges, testimonial quote box, and 4-image asymmetric layout |
 | `PlumberX_Pricing_Widget` | `plumberx_pricing` | `pricing-widget.php` | 2-column pricing plans grid with 11 dynamic service price cards (image, title, amount, label) and interactive query contact card |
+| `PlumberX_Blog_Hero_Widget` | `plumberx_blog_hero` | `blog-hero-widget.php` | Blog hero banner with vibrant blue gradient, custom title, texture background, and cutout service vehicle |
+| `PlumberX_Blog_List_Widget` | `plumberx_blog_list` | `blog-list-widget.php` | 2-column blog layout with live post loop, cards, excerpts, pagination, and multi-component sidebar (search, categories, recent news, tags) |
 
 ---
 
@@ -184,18 +186,38 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   3. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
 - **Verification:** Verified in browser with full visual inspection and screenshots.
 
+### ✅ Page 10: Blog & Single Post (`/blog/`, Post ID 167 & `/these-cases-are-simple-standard/`, Post ID 169)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections (Blog Archive `/blog/`):**
+  1. Blog Hero Banner (`plumberx_blog_hero`): Vibrant blue gradient background with subtle watermark texture, bold title "Blog", and service vehicle cutout (`blog_banner_van.png`).
+  2. Blog Posts & Sidebar (`plumberx_blog_list`):
+     - Left Column: 4 full blog post cards with high-res featured images (`blog_main_1.jpg` to `blog_main_4.jpg`), titles, date meta with SVG clock, author credit, excerpt, and red "Read More" button link.
+     - Right Sidebar: Search bar with instant submit, Categories list with `>` indicators, Recent News list with 4 thumbnail cards (`blog_thumb_1.jpg` to `blog_thumb_4.jpg`) and dates, Tags cloud buttons (Roofing, Clean, Water, Plumber, Pipe, Repair).
+  3. Global Request Free Quote Strip Button & Theme Footer.
+- **Sections (Single Blog Post `blog-single.html` / `single.php`):**
+  1. Subpage Banner: Post title with intermediate breadcrumbs (`Home > Blog > Post Title`).
+  2. Article Column:
+     - Rounded featured image.
+     - Stylized Dropcap first paragraph.
+     - Dual-bordered cyan callout quote box.
+     - Body text paragraphs.
+     - Meta line: Category badges and comment count.
+     - Author Bio Box with author avatar thumbnail (`author_avatar.png`), name, and bio description.
+     - Next / Previous post navigation.
+     - Native "Leave a Reply" comment form matching exact design classes.
+  3. Right Sidebar: Search, Recent Posts links, Archives list, Categories list.
+  4. Global Request Free Quote Strip Button & Theme Footer.
+- **Verification:** Verified in browser with full visual inspection and screenshots.
+
 ---
 
 ## 5. Remaining Pages Roadmap
 
 | Page | Static Template | WordPress Slug / ID | Priority / Status |
 |---|---|---|---|
-| **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | ✅ Completed |
-| **Projects** | `projects.html` | `/projects/` (ID 164) | ✅ Completed |
-| **Case Study** | `case-study.html` | `/case-study/` (ID 165) | ✅ Completed |
 | **Price Plans** | `price.html` | `/pricing/` (ID 166) | ✅ Completed |
-| **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | 🚀 Up next |
-| **Contact Us** | `contact.html` | `/contact/` (ID 168) | Pending |
+| **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | ✅ Completed |
+| **Contact Us** | `contact.html` | `/contact/` (ID 168) | 🚀 Up next |
 | **WooCommerce Shop** | `shop.html` | `/shop/` (ID 6) | Pending |
 
 ---

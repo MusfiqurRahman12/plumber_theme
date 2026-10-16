@@ -3902,7 +3902,9 @@ button, input, select, textarea {
 .elementor-widget-plumberx_service_details,
 .elementor-widget-plumberx_projects_gallery,
 .elementor-widget-plumberx_case_study,
-.elementor-widget-plumberx_pricing {
+.elementor-widget-plumberx_pricing,
+.elementor-widget-plumberx_blog_hero,
+.elementor-widget-plumberx_blog_list {
   width: 100%;
 }
 
@@ -3927,7 +3929,9 @@ button, input, select, textarea {
 .elementor-widget-plumberx_service_details .elementor-widget-container,
 .elementor-widget-plumberx_projects_gallery .elementor-widget-container,
 .elementor-widget-plumberx_case_study .elementor-widget-container,
-.elementor-widget-plumberx_pricing .elementor-widget-container {
+.elementor-widget-plumberx_pricing .elementor-widget-container,
+.elementor-widget-plumberx_blog_hero .elementor-widget-container,
+.elementor-widget-plumberx_blog_list .elementor-widget-container {
   padding: 0 !important;
   margin: 0 !important;
 }
