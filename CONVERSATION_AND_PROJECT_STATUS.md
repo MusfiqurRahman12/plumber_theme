@@ -54,6 +54,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Featured_Services_Widget` | `plumberx_featured_services` | `featured-services-widget.php` | Dark blue section with 4 featured service cards |
 | `PlumberX_Services_Grid_Widget` | `plumberx_services_grid` | `services-grid-widget.php` | 8-card grid for Services 2 with images, titles, descriptions, links, and decorative water splash |
 | `PlumberX_Services_Icon_Grid_Widget` | `plumberx_services_icon_grid` | `services-icon-grid-widget.php` | 8-card grid for Services 3 with customizable SVG icons, presets, descriptions, Read More buttons, and water splash |
+| `PlumberX_Service_Details_Widget` | `plumberx_service_details` | `service-details-widget.php` | Two-column service details layout with interactive sidebar, download brochures, benefit box, facts counters, and FAQ accordion |
 
 ---
 
@@ -120,14 +121,30 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   4. Request Free Quote Strip Button & Global Footer: Provided cleanly without duplicates.
 - **Verification:** Verified in browser with full visual inspection and screenshots.
 
+### ✅ Page 6: Plumbing Repairs / Service Details (`/service-repair/`, Post ID 163)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Plumbing Repairs", Breadcrumb "Home > Services > Plumbing Repairs".
+  2. Service Details (`plumberx_service_details`):
+     - Left Sidebar: Interactive service navigation menu with active highlighting, "Have Any Question?" promo widget with contact info & phone number, and PDF brochure download buttons.
+     - Right Main Content:
+       - 2 top photos (`repair_top_1.jpg`, `repair_top_2.jpg`).
+       - Main Title ("Plumbing Repairs") & introductory paragraphs.
+       - "Benefit of Service" box with image (`repair_benefit.jpg`) & 4-item checklist.
+       - "Some Facts" with 4 red circular icons.
+       - Interactive 4-item FAQ Accordion with instant expand/collapse toggle.
+  3. Emergency Banner (`plumberx_emergency_banner`): Urgent 24/7 callout banner with plumber cutout, wrench cutout, direct call link, and contact button.
+  4. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
+- **Verification:** Verified in browser with full visual inspection and screenshots.
+
 ---
 
 ## 5. Remaining Pages Roadmap
 
 | Page | Static Template | WordPress Slug / ID | Priority / Status |
 |---|---|---|---|
-| **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | Up next |
-| **Projects** | `projects.html` | `/projects/` (ID 164) | Pending |
+| **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | ✅ Completed |
+| **Projects** | `projects.html` | `/projects/` (ID 164) | 🚀 Up next |
 | **Case Study** | `case-study.html` | `/case-study/` (ID 165) | Pending |
 | **Price Plans** | `price.html` | `/pricing/` (ID 166) | Pending |
 | **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | Pending |
@@ -138,6 +155,9 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 
 ## 6. Git Commit History
 
+- `7b314b2`: feat: implement Services 3 page with dedicated Elementor widgets and verified layout
+- `a9f0d98`: feat: implement Services 2 page with dedicated Elementor widgets and verified layout
+- `a8144fa`: Save conversation log and project conversion status documentation
 - `40ca46c`: Implement Services 1 page with dedicated Elementor widgets and verified layout
 - `34b8202`: Implement About Us page with dedicated Elementor widgets and verified layout
 - `e43f3f3`: Fix Elementor section full-width normalization CSS and footer image paths
