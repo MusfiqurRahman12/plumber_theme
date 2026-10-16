@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'PLUMBERX_VERSION', '1.0.0' );
+define( 'PLUMBERX_VERSION', '1.0.1' );
 define( 'PLUMBERX_DIR', get_template_directory() );
 define( 'PLUMBERX_URI', get_template_directory_uri() );
 

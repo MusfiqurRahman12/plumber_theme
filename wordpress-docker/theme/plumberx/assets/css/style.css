@@ -2943,11 +2943,13 @@ button, input, select, textarea {
 .highlight-icon {
   width: 48px;
   height: 48px;
+  min-width: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--cyan);
   font-size: 28px;
+  flex-shrink: 0;
 }
 
 .highlight-info h4 {
@@ -3773,6 +3775,13 @@ button, input, select, textarea {
   }
 }
 
+@media (max-width: 991px) {
+  .shop-highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -3820,8 +3829,31 @@ button, input, select, textarea {
   }
   .contractor-grid, .about-mission-grid, .about-features-layout,
   .service1-expertise-grid, .repair-grid, .case-study-grid,
-  .shop-hero-grid, .blog-grid-layout, .contact-grid, .price-cards-grid {
+  .shop-hero-grid, .blog-grid-layout, .contact-grid, .price-cards-grid,
+  .shop-highlights-grid {
     grid-template-columns: 1fr;
+  }
+  .shop-highlights-strip {
+    padding: 30px 0;
+  }
+  .shop-highlights-grid {
+    gap: 16px;
+  }
+  .highlight-box {
+    padding: 16px 18px;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+  .highlight-info h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+  }
+  .highlight-info p {
+    font-size: 13px;
+    line-height: 1.5;
   }
   .shop-hero-section {
     padding: 40px 0 30px;
@@ -3859,6 +3891,25 @@ button, input, select, textarea {
   }
   .gallery-grid-9 {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .products-grid-shop {
+    grid-template-columns: 1fr;
+  }
+  .highlight-box {
+    padding: 14px 16px;
+    gap: 14px;
+  }
+  .highlight-icon {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+  }
+  .highlight-icon svg {
+    width: 32px;
+    height: 32px;
   }
 }
 
