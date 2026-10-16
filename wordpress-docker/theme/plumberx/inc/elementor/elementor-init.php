@@ -80,6 +80,7 @@ class PlumberX_Elementor_Extension {
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/service-details-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/projects-gallery-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/case-study-widget.php';
+        require_once PLUMBERX_DIR . '/inc/elementor/widgets/pricing-widget.php';
 
         // Register with manager
         $widgets_manager->register( new \PlumberX_Hero_Widget() );
@@ -103,6 +104,7 @@ class PlumberX_Elementor_Extension {
         $widgets_manager->register( new \PlumberX_Service_Details_Widget() );
         $widgets_manager->register( new \PlumberX_Projects_Gallery_Widget() );
         $widgets_manager->register( new \PlumberX_Case_Study_Widget() );
+        $widgets_manager->register( new \PlumberX_Pricing_Widget() );
     }
 }
 

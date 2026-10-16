@@ -57,6 +57,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Service_Details_Widget` | `plumberx_service_details` | `service-details-widget.php` | Two-column service details layout with interactive sidebar, download brochures, benefit box, facts counters, and FAQ accordion |
 | `PlumberX_Projects_Gallery_Widget` | `plumberx_projects_gallery` | `projects-gallery-widget.php` | Filterable 9-item project gallery grid with interactive category navigation, FLIP shuffle animation, and lightbox zoom modal |
 | `PlumberX_Case_Study_Widget` | `plumberx_case_study` | `case-study-widget.php` | Two-column case study story and progress gallery with custom description, challenges, testimonial quote box, and 4-image asymmetric layout |
+| `PlumberX_Pricing_Widget` | `plumberx_pricing` | `pricing-widget.php` | 2-column pricing plans grid with 11 dynamic service price cards (image, title, amount, label) and interactive query contact card |
 
 ---
 
@@ -172,6 +173,17 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   4. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
 - **Verification:** Verified in browser with full visual inspection and screenshots.
 
+### ✅ Page 9: Price Plans (`/pricing/`, Post ID 166)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Price", Breadcrumb "Home > Pages > Price".
+  2. Pricing Plans Section (`plumberx_pricing`):
+     - Section Header: Title "We always offer value for money with totally transparent charges" and description paragraph.
+     - 11 Price Cards in a 2-column grid (`price_1.jpg` to `price_11.jpg`): Thumbnails, titles ("Repair a Sewer Main"), prices ("$199"), and "Average" labels with smooth hover lifts and drop shadows.
+     - 12th Box: Centered query card with heading "Contact us for any other Querry" and underlined cyan link "Click here" navigating to `/contact/`.
+  3. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
+- **Verification:** Verified in browser with full visual inspection and screenshots.
+
 ---
 
 ## 5. Remaining Pages Roadmap
@@ -181,8 +193,8 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | ✅ Completed |
 | **Projects** | `projects.html` | `/projects/` (ID 164) | ✅ Completed |
 | **Case Study** | `case-study.html` | `/case-study/` (ID 165) | ✅ Completed |
-| **Price Plans** | `price.html` | `/pricing/` (ID 166) | 🚀 Up next |
-| **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | Pending |
+| **Price Plans** | `price.html` | `/pricing/` (ID 166) | ✅ Completed |
+| **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | 🚀 Up next |
 | **Contact Us** | `contact.html` | `/contact/` (ID 168) | Pending |
 | **WooCommerce Shop** | `shop.html` | `/shop/` (ID 6) | Pending |
 
