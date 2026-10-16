@@ -84,6 +84,9 @@ class PlumberX_Elementor_Extension {
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/blog-hero-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/blog-list-widget.php';
         require_once PLUMBERX_DIR . '/inc/elementor/widgets/contact-widget.php';
+        require_once PLUMBERX_DIR . '/inc/elementor/widgets/shop-hero-widget.php';
+        require_once PLUMBERX_DIR . '/inc/elementor/widgets/shop-highlights-widget.php';
+        require_once PLUMBERX_DIR . '/inc/elementor/widgets/shop-products-widget.php';
 
         // Register with manager
         $widgets_manager->register( new \PlumberX_Hero_Widget() );
@@ -111,6 +114,9 @@ class PlumberX_Elementor_Extension {
         $widgets_manager->register( new \PlumberX_Blog_Hero_Widget() );
         $widgets_manager->register( new \PlumberX_Blog_List_Widget() );
         $widgets_manager->register( new \PlumberX_Contact_Widget() );
+        $widgets_manager->register( new \PlumberX_Shop_Hero_Widget() );
+        $widgets_manager->register( new \PlumberX_Shop_Highlights_Widget() );
+        $widgets_manager->register( new \PlumberX_Shop_Products_Widget() );
     }
 }
 
