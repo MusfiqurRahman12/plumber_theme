@@ -55,6 +55,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | `PlumberX_Services_Grid_Widget` | `plumberx_services_grid` | `services-grid-widget.php` | 8-card grid for Services 2 with images, titles, descriptions, links, and decorative water splash |
 | `PlumberX_Services_Icon_Grid_Widget` | `plumberx_services_icon_grid` | `services-icon-grid-widget.php` | 8-card grid for Services 3 with customizable SVG icons, presets, descriptions, Read More buttons, and water splash |
 | `PlumberX_Service_Details_Widget` | `plumberx_service_details` | `service-details-widget.php` | Two-column service details layout with interactive sidebar, download brochures, benefit box, facts counters, and FAQ accordion |
+| `PlumberX_Projects_Gallery_Widget` | `plumberx_projects_gallery` | `projects-gallery-widget.php` | Filterable 9-item project gallery grid with interactive category navigation, FLIP shuffle animation, and lightbox zoom modal |
 
 ---
 
@@ -137,6 +138,28 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
   4. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
 - **Verification:** Verified in browser with full visual inspection and screenshots.
 
+### ✅ Page 7: Projects Page (`/projects/`, Post ID 164)
+- **Status:** 100% Completed & Verified in Browser
+- **Sections:**
+  1. Subpage Banner (`plumberx_subpage_banner`): Title "Projects", Breadcrumb "Home > Projects".
+  2. Projects Gallery Grid (`plumberx_projects_gallery`):
+     - Filter Navigation: All, Kitchen, Bathroom, Drain Cleaning, Outside Plumbing, Server Lines Cleaning, Tank Leak Inspections.
+     - 9 Project Cards (full 3x3 layout):
+       1. Commercial Plumbing Inspection (`project_1.jpg` / category: `kitchen`)
+       2. Bathroom Sink Plumbing (`project_2.jpg` / category: `bathroom`)
+       3. Outside Excavation & Pipeline (`project_3.jpg` / category: `outside`)
+       4. Kitchen Drain Line Fix (`project_4.jpg` / category: `kitchen`)
+       5. High Pressure Drain Clearing (`project_5.jpg` / category: `drain`)
+       6. Water Tank Valve Seal (`project_6.jpg` / category: `tank`)
+       7. Underground Sewer Pipe Connection (`project_7.jpg` / category: `server`)
+       8. Bathtub Faucet Replacement (`project_8.jpg` / category: `bathroom`)
+       9. Kitchen P-Trap Assembly (`project_9.jpg` / category: `drain`)
+     - Full FLIP shuffle animation on filter click (tested with Kitchen, Bathroom, and All).
+     - Lightbox modal with zoom view and close functionality.
+     - Case study action links.
+  3. Request Free Quote Strip Button & Global Footer: Clean, pixel-perfect.
+- **Key Fix:** Updated `plumberx_project` custom post type rewrite rules in `functions.php` (`has_archive => false`, `rewrite => ['slug' => 'project']`) so `/projects/` routes directly to the Elementor Page instead of CPT archive.
+
 ---
 
 ## 5. Remaining Pages Roadmap
@@ -144,8 +167,8 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 | Page | Static Template | WordPress Slug / ID | Priority / Status |
 |---|---|---|---|
 | **Plumbing Repairs** | `service-repair.html` | `/service-repair/` (ID 163) | ✅ Completed |
-| **Projects** | `projects.html` | `/projects/` (ID 164) | 🚀 Up next |
-| **Case Study** | `case-study.html` | `/case-study/` (ID 165) | Pending |
+| **Projects** | `projects.html` | `/projects/` (ID 164) | ✅ Completed |
+| **Case Study** | `case-study.html` | `/case-study/` (ID 165) | 🚀 Up next |
 | **Price Plans** | `price.html` | `/pricing/` (ID 166) | Pending |
 | **Blog & Single Post** | `blog.html`, `blog-single.html` | `/blog/` (ID 167) | Pending |
 | **Contact Us** | `contact.html` | `/contact/` (ID 168) | Pending |
@@ -155,6 +178,7 @@ All custom widgets are registered under the **"PlumberX Elements"** category in 
 
 ## 6. Git Commit History
 
+- `94af782`: feat: implement Plumbing Repairs page with dedicated Elementor widgets and verified layout
 - `7b314b2`: feat: implement Services 3 page with dedicated Elementor widgets and verified layout
 - `a9f0d98`: feat: implement Services 2 page with dedicated Elementor widgets and verified layout
 - `a8144fa`: Save conversation log and project conversion status documentation
